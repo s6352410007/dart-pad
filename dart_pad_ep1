@@ -1,0 +1,150 @@
+void main() {
+  
+  print(7 > 15 ? 'abc': 'wowowow');
+  int x = 80;
+  int y = 15;
+  int z = x <= y ~/ 7 ? 'sau' : 'gta'; 
+  
+  print('Z is ${z} z');
+  /*
+  int x = 20;
+  int y = 3;
+  
+  print(x + y);  // = 23
+  print('x + y'); // = x + y
+  print('${x + y}');
+  print(x % y); // = 2
+  print(x ~/ y); // = 6   // ~/ คือ หารเอาเลยจำนวนจริง
+  */
+  
+  /*
+  double x = 100.4234;
+  double y = 100.5235;
+  double z = 100.6236;
+  
+  print(x.toStringAsFixed(0));
+  print(y.toStringAsFixed(0));  //ปัดตามค่าปกติ จากเลขหลังสุด ตั้งเเต่ 5 ปัด
+  print(z.toStringAsFixed(0));
+  print('------------------------------');
+  print(x.toStringAsFixed(3));
+  print(y.toStringAsFixed(3));  //ปัดตามค่าปกติ จากเลขหลังสุด ตั้งเเต่ 5 ปัด
+  print(z.toStringAsFixed(3));
+  print('------------------------------');
+  print(x.ceil());
+  print(y.ceil()); //ปัดขึ้น
+  print(z.ceil());
+  print('------------------------------');
+  print(x.floor());
+  print(y.floor()); //ไม่ปัด
+  print(z.floor());
+  print('------------------------------');
+  print(x.round());
+  print(y.round()); //ปัดตั้งเต่ 5 
+  print(z.round());
+  */
+  
+  
+  /*double x = 100.458;
+  
+  print(x + 50);
+  print(x.toStringAsFixed(2));
+  //print(x.toStringAsFixed(2)+50); error x เป็น sting เเล้ว
+  
+  print(num.parse(x.toStringAsFixed(4)) + 50);
+  */
+  
+
+  
+  /*
+  int y = 50;
+  y = 100;
+  
+  final m = 'สมใจ';
+  //m = 'สมชาย'; เปลี่ยนค่าไม่ได้ error
+  const q = 20;
+  //q = 100; เปลี่ยนค่าไม่ได้ error 
+  
+  int u  = 20;
+  const c;
+  //a = u; error ถ้าเป็น const ต้องมีค่าตั้งเเต่เเรก
+  final b;
+  b = u; // final สามารถ runtime ได้
+  
+  
+  
+  var x;
+  print(x.runtimeType);
+  x = 20;
+  print(x.runtimeType);
+  x = 'สมชาย';
+  print(x.runtimeType);
+  print('---------------------------------');
+  
+  var a = 'game';
+  print(a.runtimeType);
+  //a = 100;
+  print('---------------------------------');
+  
+  int y = 0;
+  print(y.runtimeType);
+  dynamic z;
+  print(z.runtimeType);
+  z = 20;
+  print(z.runtimeType);
+  z = 'สมหญิง';
+  print(z.runtimeType);
+  
+  */
+  
+  
+
+  
+  /*
+  num score1 = 50;
+  num score2 = 555.0005;
+  int age = 20;
+  double salary = 100.100;
+  String study_name = 'Saob';
+  bool flag = true;
+  String emp_name;
+  emp_name = "nemo";
+  
+  print('sss');
+  print(study_name);
+  print('123123');
+  print(score2);
+  
+  print('sss ${study_name} ${123/123}');
+  print('sss $study_name');
+  
+  */
+  
+  
+  /*
+  print('aabbaa');
+  print('aa\'bb\'aa');
+  print("aa'bb'aa");
+  //--------------------------------------
+  print("ccddcc");
+  print("cc\"dd\"cc");
+  print('cc"dd"cc');
+  //--------------------------------------
+  print('x');
+  //print(\n); error
+  print('Sau na k\tab');//string
+  print("DT\nI 2022");//string
+  /*
+   suphakit
+   suphakit
+   */
+  
+  print(456);//int --> number(num)
+  print(455.45655);//double --> number(num)
+  print(true);//boolean
+  print(false);//boolean
+  
+  */
+  
+}
+  
+
